@@ -1,9 +1,11 @@
 from typing import List
 import pandas as pd
 
+# Leetcode submission
 def getDataframeSize(players: pd.DataFrame) -> List[int]:
     return list(players.shape)
 
+# Local testing
 if __name__ == "__main__":
     data = [
         [846, "Mason", 21, "Forward", "RealMadrid"],

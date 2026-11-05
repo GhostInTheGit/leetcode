@@ -1,9 +1,10 @@
-from typing import List
 import pandas as pd
 
+# Leetcode submission
 def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:
     return employees.head(3)
 
+# Local testing
 if __name__ == "__main__":
     data = [
         [3, "Bob", "Operations", 48675],

@@ -1,9 +1,10 @@
-from typing import List
 import pandas as pd
 
+# Leetcode submission
 def selectData(students: pd.DataFrame) -> pd.DataFrame:
     return students.loc[students["student_id"] == 101,["name", "age"]]
 
+# Local testing
 if __name__ == "__main__":
     data = [
         [101, "Ulysses", 13],

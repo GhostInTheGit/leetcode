@@ -1,10 +1,11 @@
-from typing import List
 import pandas as pd
 
+# Leetcode submission
 def createBonusColumn(employees: pd.DataFrame) -> pd.DataFrame:
     employees["bonus"] = employees["salary"] * 2
     return employees
 
+# Local testing
 if __name__ == "__main__":
     data = [
         ["Piper", 4548],
